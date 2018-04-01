@@ -87,7 +87,7 @@ RUN groupadd --gid 3434 circleci \
 USER circleci
 
 ENV NPM_CONFIG_LOGLEVEL info
-ENV NODE_VERSION 6.12.2
+ENV NODE_VERSION 6.14.1
 
 USER root
 
